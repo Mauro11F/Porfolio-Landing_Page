@@ -183,6 +183,7 @@ header #toggle:after
     filter: invert(1);
     mix-blend-mode: difference;
 }
+
 @media (max-width: 830px)
 {
     header
@@ -226,5 +227,39 @@ header #toggle:after
     {
         margin: initial;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 417px)
+{
+    header
+    {
+        padding: 10px 25px;
+    }
+    .banner
+    {
+        padding: 80px 30px 120px;
+    }
+    .banner h2
+    {
+        font-size: 2em;
+    }
+    .banner .content a,
+    .banner .content p
+    {
+        font-size: 0.9em;
+    }
+    .banner.active
+    {
+        transform: translateX(-225px);
+    }
+    #navigation
+    {
+        width: 225px;
+    }
+    #navigation ul li a
+    {
+        font-size: 1.2em;
+        margin: 10px 0;
     }
 }
