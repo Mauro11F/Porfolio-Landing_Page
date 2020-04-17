@@ -183,7 +183,7 @@ header #toggle:after
     filter: invert(1);
     mix-blend-mode: difference;
 }
-@media (max-width: 767px)
+@media (max-width: 777px)
 {
     header
     {
